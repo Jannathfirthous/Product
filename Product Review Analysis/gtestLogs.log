@@ -1,0 +1,40 @@
+2023-03-15 11:16:59,445 [INFO] com.reviewanalysis.ReviewanalysisApplication [main] Starting ReviewanalysisApplication v1 using Java 11.0.17 on inlen8520081483 with PID 29440 (C:\Users\jannaj\.m2\repository\com\example\reviewanalysis\1\reviewanalysis-1.jar started by jannaj in C:\Users\jannaj\Desktop\project\Product Review Analysis)
+2023-03-15 11:16:59,450 [INFO] com.reviewanalysis.ReviewanalysisApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-03-15 11:17:00,420 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-03-15 11:17:00,517 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 75 ms. Found 1 JPA repository interfaces.
+2023-03-15 11:17:01,576 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8888 (http)
+2023-03-15 11:17:01,593 [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2023-03-15 11:17:01,593 [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-03-15 11:17:01,691 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2023-03-15 11:17:01,691 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2154 ms
+2023-03-15 11:17:01,932 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-03-15 11:17:02,040 [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.14.Final
+2023-03-15 11:17:02,296 [INFO] org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-03-15 11:17:02,454 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-03-15 11:17:02,849 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-03-15 11:17:02,873 [INFO] org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-03-15 11:17:03,834 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-03-15 11:17:03,844 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-03-15 11:17:04,350 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-03-15 11:17:04,757 [WARN] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8888 is already in use
+2023-03-15 11:17:04,759 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-03-15 11:17:04,762 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2023-03-15 11:17:04,781 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2023-03-15 11:17:04,784 [INFO] org.apache.catalina.core.StandardService [main] Stopping service [Tomcat]
+2023-03-15 11:17:04,805 [INFO] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-03-15 11:17:04,827 [ERROR] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8888 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8888 or configure this application to listen on another port.
+
